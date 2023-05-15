@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <style>
+        .form{
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Formulário</h1><br>
+
+    <div class="">
+            <form action="site">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                <strong><label for="Nome">Nome:</label></strong>
+                <input type="text" id="Nome"><br>
+                <strong><label for="DT">Data de Nascimento:</label></strong>
+                <input type="date" id="DT"><br>
+                <strong><label for="email">E-mail:</label></strong>
+                <input type="email" id="email"><br>
+                <strong><label for="cel"> Celular:</label></strong>
+                <input type="text" id="cel">
+            </fieldset>
+
+            </form>
+    </div>
+    
+    <div class="">
+        <form action="site">
+            <fieldset>
+            <legend>Dados acadêmicos</legend>
+            <strong><label for="curso">Curso:</label></strong>
+            <select name="curso" id="curso">
+                <option value="ADS">ADS</option>
+                <option value="CD">CD</option>
+                <option value="SI">SI</option>
+            </select><br>
+            <strong><label for="Semestre">semestre:</label></strong>
+            <input type="radio" id="semestre" name="1" value="1">
+            <label for="semestre">1°</label>
+            <input type="radio" id="semestre" name="2" value="2">
+            <label for="semestre"> 2°</label>
+            <input type="radio" id="semestre" name="3" value="3">
+            <label for="semestre">3°</label>
+            <input type="radio" id="semestre" name="4" value="4">
+            <label for="semestre">4°</label>
+            <input type="radio" id="semestre" name="5" value="5">
+            <label for="semestre">5°</label>
+        </fieldset>
+
+
+        </form>
+    </div>
+    <div class="">
+        <form action="site">
+            <fieldset>
+                <strong><label for="tr">Trabalha?</label></strong>
+                <input type="checkbox" id="tr" value="traabalha"><br>
+                <strong><label for="local">Local de trabalho:</label></strong>
+                <input type="text" id="local"><br>
+                <strong><label for="exp">Descreva sua experiência:</label></strong><br>
+                <textarea name="exp" id="exp" cols="50" rows="5"></textarea>
+            </fieldset>
+
+        </form>
+    </div>
+        <form action="">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </form>
+
+    <a href="../index.html">Clique para voltar</a>
+    
+</body>
+</html>
