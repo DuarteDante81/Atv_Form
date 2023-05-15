@@ -2,7 +2,7 @@
 ## equipe
 Samuel Ricardo,
 Elrick Vinícius,
-Artur Rosal,
+Arthur Rosal,
 Kayan Cardoso,
 Antonio Moraes, 
 Caian Patrick.
